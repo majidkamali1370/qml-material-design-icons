@@ -20,7 +20,7 @@ engine.rootContext()->setContextProperty("MaterialIcons", new MaterialIcons());
 4.in qml:
 ```qml
 Text {
-    text: MaterialIcons.delete
+    text: MaterialIcons.mdiDelete
     font.family: "Material Design Icons"
 }
 ```
