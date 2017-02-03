@@ -1,7 +1,7 @@
 # qml-material-design-icons
-Material design icons for use in Qml, based on version 1.7.22
+Material design icons for use in Qml, based on version 1.8.36
 
-[Material Design Icons](https://cdn.materialdesignicons.com/1.7.22/)
+[Material Design Icons](https://cdn.materialdesignicons.com/1.8.36/)
 
 # Usage
 1.copy MaterialIcons.h to your project directory. copy materialdesignicons-webfont.ttf to project resources
