@@ -17,6 +17,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiAccountCheck READ mdiAccountCheck CONSTANT)
     Q_PROPERTY(QString mdiAccountCircle READ mdiAccountCircle CONSTANT)
     Q_PROPERTY(QString mdiAccountConvert READ mdiAccountConvert CONSTANT)
+    Q_PROPERTY(QString mdiAccountEdit READ mdiAccountEdit CONSTANT)
     Q_PROPERTY(QString mdiAccountKey READ mdiAccountKey CONSTANT)
     Q_PROPERTY(QString mdiAccountLocation READ mdiAccountLocation CONSTANT)
     Q_PROPERTY(QString mdiAccountMinus READ mdiAccountMinus CONSTANT)
@@ -55,7 +56,9 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiAlertCircle READ mdiAlertCircle CONSTANT)
     Q_PROPERTY(QString mdiAlertCircleOutline READ mdiAlertCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiAlertOctagon READ mdiAlertOctagon CONSTANT)
+    Q_PROPERTY(QString mdiAlertOctagram READ mdiAlertOctagram CONSTANT)
     Q_PROPERTY(QString mdiAlertOutline READ mdiAlertOutline CONSTANT)
+    Q_PROPERTY(QString mdiAllInclusive READ mdiAllInclusive CONSTANT)
     Q_PROPERTY(QString mdiAlpha READ mdiAlpha CONSTANT)
     Q_PROPERTY(QString mdiAlphabetical READ mdiAlphabetical CONSTANT)
     Q_PROPERTY(QString mdiAltimeter READ mdiAltimeter CONSTANT)
@@ -68,6 +71,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiAndroidDebugBridge READ mdiAndroidDebugBridge CONSTANT)
     Q_PROPERTY(QString mdiAndroidStudio READ mdiAndroidStudio CONSTANT)
     Q_PROPERTY(QString mdiAngular READ mdiAngular CONSTANT)
+    Q_PROPERTY(QString mdiAngularjs READ mdiAngularjs CONSTANT)
     Q_PROPERTY(QString mdiAnimation READ mdiAnimation CONSTANT)
     Q_PROPERTY(QString mdiApple READ mdiApple CONSTANT)
     Q_PROPERTY(QString mdiAppleFinder READ mdiAppleFinder CONSTANT)
@@ -80,7 +84,6 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiAppleMobileme READ mdiAppleMobileme CONSTANT)
     Q_PROPERTY(QString mdiAppleSafari READ mdiAppleSafari CONSTANT)
     Q_PROPERTY(QString mdiApplication READ mdiApplication CONSTANT)
-    Q_PROPERTY(QString mdiAppnet READ mdiAppnet CONSTANT)
     Q_PROPERTY(QString mdiApps READ mdiApps CONSTANT)
     Q_PROPERTY(QString mdiArchive READ mdiArchive CONSTANT)
     Q_PROPERTY(QString mdiArrangeBringForward READ mdiArrangeBringForward CONSTANT)
@@ -97,6 +100,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiArrowDownBoldCircle READ mdiArrowDownBoldCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowDownBoldCircleOutline READ mdiArrowDownBoldCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowDownBoldHexagonOutline READ mdiArrowDownBoldHexagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiArrowDownBox READ mdiArrowDownBox CONSTANT)
     Q_PROPERTY(QString mdiArrowDownDropCircle READ mdiArrowDownDropCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowDownDropCircleOutline READ mdiArrowDownDropCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowExpand READ mdiArrowExpand CONSTANT)
@@ -106,6 +110,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiArrowLeftBoldCircle READ mdiArrowLeftBoldCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowLeftBoldCircleOutline READ mdiArrowLeftBoldCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowLeftBoldHexagonOutline READ mdiArrowLeftBoldHexagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiArrowLeftBox READ mdiArrowLeftBox CONSTANT)
     Q_PROPERTY(QString mdiArrowLeftDropCircle READ mdiArrowLeftDropCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowLeftDropCircleOutline READ mdiArrowLeftDropCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowRight READ mdiArrowRight CONSTANT)
@@ -113,6 +118,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiArrowRightBoldCircle READ mdiArrowRightBoldCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowRightBoldCircleOutline READ mdiArrowRightBoldCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowRightBoldHexagonOutline READ mdiArrowRightBoldHexagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiArrowRightBox READ mdiArrowRightBox CONSTANT)
     Q_PROPERTY(QString mdiArrowRightDropCircle READ mdiArrowRightDropCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowRightDropCircleOutline READ mdiArrowRightDropCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowTopLeft READ mdiArrowTopLeft CONSTANT)
@@ -122,9 +128,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiArrowUpBoldCircle READ mdiArrowUpBoldCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowUpBoldCircleOutline READ mdiArrowUpBoldCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiArrowUpBoldHexagonOutline READ mdiArrowUpBoldHexagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiArrowUpBox READ mdiArrowUpBox CONSTANT)
     Q_PROPERTY(QString mdiArrowUpDropCircle READ mdiArrowUpDropCircle CONSTANT)
     Q_PROPERTY(QString mdiArrowUpDropCircleOutline READ mdiArrowUpDropCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiAssistant READ mdiAssistant CONSTANT)
+    Q_PROPERTY(QString mdiAsterisk READ mdiAsterisk CONSTANT)
     Q_PROPERTY(QString mdiAt READ mdiAt CONSTANT)
     Q_PROPERTY(QString mdiAttachment READ mdiAttachment CONSTANT)
     Q_PROPERTY(QString mdiAudiobook READ mdiAudiobook CONSTANT)
@@ -209,6 +217,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiBlurOff READ mdiBlurOff CONSTANT)
     Q_PROPERTY(QString mdiBlurRadial READ mdiBlurRadial CONSTANT)
     Q_PROPERTY(QString mdiBomb READ mdiBomb CONSTANT)
+    Q_PROPERTY(QString mdiBombOff READ mdiBombOff CONSTANT)
     Q_PROPERTY(QString mdiBone READ mdiBone CONSTANT)
     Q_PROPERTY(QString mdiBook READ mdiBook CONSTANT)
     Q_PROPERTY(QString mdiBookMinus READ mdiBookMinus CONSTANT)
@@ -227,6 +236,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiBookmarkPlusOutline READ mdiBookmarkPlusOutline CONSTANT)
     Q_PROPERTY(QString mdiBookmarkRemove READ mdiBookmarkRemove CONSTANT)
     Q_PROPERTY(QString mdiBoombox READ mdiBoombox CONSTANT)
+    Q_PROPERTY(QString mdiBootstrap READ mdiBootstrap CONSTANT)
     Q_PROPERTY(QString mdiBorderAll READ mdiBorderAll CONSTANT)
     Q_PROPERTY(QString mdiBorderBottom READ mdiBorderBottom CONSTANT)
     Q_PROPERTY(QString mdiBorderColor READ mdiBorderColor CONSTANT)
@@ -314,6 +324,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiCards READ mdiCards CONSTANT)
     Q_PROPERTY(QString mdiCardsOutline READ mdiCardsOutline CONSTANT)
     Q_PROPERTY(QString mdiCardsPlayingOutline READ mdiCardsPlayingOutline CONSTANT)
+    Q_PROPERTY(QString mdiCardsVariant READ mdiCardsVariant CONSTANT)
     Q_PROPERTY(QString mdiCarrot READ mdiCarrot CONSTANT)
     Q_PROPERTY(QString mdiCart READ mdiCart CONSTANT)
     Q_PROPERTY(QString mdiCartOff READ mdiCartOff CONSTANT)
@@ -388,6 +399,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiClipboardArrowDown READ mdiClipboardArrowDown CONSTANT)
     Q_PROPERTY(QString mdiClipboardArrowLeft READ mdiClipboardArrowLeft CONSTANT)
     Q_PROPERTY(QString mdiClipboardCheck READ mdiClipboardCheck CONSTANT)
+    Q_PROPERTY(QString mdiClipboardFlow READ mdiClipboardFlow CONSTANT)
     Q_PROPERTY(QString mdiClipboardOutline READ mdiClipboardOutline CONSTANT)
     Q_PROPERTY(QString mdiClipboardText READ mdiClipboardText CONSTANT)
     Q_PROPERTY(QString mdiClippy READ mdiClippy CONSTANT)
@@ -406,6 +418,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiCloseNetwork READ mdiCloseNetwork CONSTANT)
     Q_PROPERTY(QString mdiCloseOctagon READ mdiCloseOctagon CONSTANT)
     Q_PROPERTY(QString mdiCloseOctagonOutline READ mdiCloseOctagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiCloseOutline READ mdiCloseOutline CONSTANT)
     Q_PROPERTY(QString mdiClosedCaption READ mdiClosedCaption CONSTANT)
     Q_PROPERTY(QString mdiCloud READ mdiCloud CONSTANT)
     Q_PROPERTY(QString mdiCloudCheck READ mdiCloudCheck CONSTANT)
@@ -433,6 +446,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiCodeTagsCheck READ mdiCodeTagsCheck CONSTANT)
     Q_PROPERTY(QString mdiCodepen READ mdiCodepen CONSTANT)
     Q_PROPERTY(QString mdiCoffee READ mdiCoffee CONSTANT)
+    Q_PROPERTY(QString mdiCoffeeOutline READ mdiCoffeeOutline CONSTANT)
     Q_PROPERTY(QString mdiCoffeeToGo READ mdiCoffeeToGo CONSTANT)
     Q_PROPERTY(QString mdiCoin READ mdiCoin CONSTANT)
     Q_PROPERTY(QString mdiCoins READ mdiCoins CONSTANT)
@@ -459,6 +473,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiCompassOutline READ mdiCompassOutline CONSTANT)
     Q_PROPERTY(QString mdiConsole READ mdiConsole CONSTANT)
     Q_PROPERTY(QString mdiContactMail READ mdiContactMail CONSTANT)
+    Q_PROPERTY(QString mdiContacts READ mdiContacts CONSTANT)
     Q_PROPERTY(QString mdiContentCopy READ mdiContentCopy CONSTANT)
     Q_PROPERTY(QString mdiContentCut READ mdiContentCut CONSTANT)
     Q_PROPERTY(QString mdiContentDuplicate READ mdiContentDuplicate CONSTANT)
@@ -519,6 +534,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiDecimalIncrease READ mdiDecimalIncrease CONSTANT)
     Q_PROPERTY(QString mdiDelete READ mdiDelete CONSTANT)
     Q_PROPERTY(QString mdiDeleteCircle READ mdiDeleteCircle CONSTANT)
+    Q_PROPERTY(QString mdiDeleteEmpty READ mdiDeleteEmpty CONSTANT)
     Q_PROPERTY(QString mdiDeleteForever READ mdiDeleteForever CONSTANT)
     Q_PROPERTY(QString mdiDeleteSweep READ mdiDeleteSweep CONSTANT)
     Q_PROPERTY(QString mdiDeleteVariant READ mdiDeleteVariant CONSTANT)
@@ -574,6 +590,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiDuck READ mdiDuck CONSTANT)
     Q_PROPERTY(QString mdiDumbbell READ mdiDumbbell CONSTANT)
     Q_PROPERTY(QString mdiEarth READ mdiEarth CONSTANT)
+    Q_PROPERTY(QString mdiEarthBox READ mdiEarthBox CONSTANT)
+    Q_PROPERTY(QString mdiEarthBoxOff READ mdiEarthBoxOff CONSTANT)
     Q_PROPERTY(QString mdiEarthOff READ mdiEarthOff CONSTANT)
     Q_PROPERTY(QString mdiEdge READ mdiEdge CONSTANT)
     Q_PROPERTY(QString mdiEject READ mdiEject CONSTANT)
@@ -581,6 +599,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiElevationRise READ mdiElevationRise CONSTANT)
     Q_PROPERTY(QString mdiElevator READ mdiElevator CONSTANT)
     Q_PROPERTY(QString mdiEmail READ mdiEmail CONSTANT)
+    Q_PROPERTY(QString mdiEmailAlert READ mdiEmailAlert CONSTANT)
     Q_PROPERTY(QString mdiEmailOpen READ mdiEmailOpen CONSTANT)
     Q_PROPERTY(QString mdiEmailOpenOutline READ mdiEmailOpenOutline CONSTANT)
     Q_PROPERTY(QString mdiEmailOutline READ mdiEmailOutline CONSTANT)
@@ -615,6 +634,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiExport READ mdiExport CONSTANT)
     Q_PROPERTY(QString mdiEye READ mdiEye CONSTANT)
     Q_PROPERTY(QString mdiEyeOff READ mdiEyeOff CONSTANT)
+    Q_PROPERTY(QString mdiEyeOutline READ mdiEyeOutline CONSTANT)
+    Q_PROPERTY(QString mdiEyeOutlineOff READ mdiEyeOutlineOff CONSTANT)
     Q_PROPERTY(QString mdiEyedropper READ mdiEyedropper CONSTANT)
     Q_PROPERTY(QString mdiEyedropperVariant READ mdiEyedropperVariant CONSTANT)
     Q_PROPERTY(QString mdiFace READ mdiFace CONSTANT)
@@ -625,7 +646,9 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFactory READ mdiFactory CONSTANT)
     Q_PROPERTY(QString mdiFan READ mdiFan CONSTANT)
     Q_PROPERTY(QString mdiFastForward READ mdiFastForward CONSTANT)
+    Q_PROPERTY(QString mdiFastForwardOutline READ mdiFastForwardOutline CONSTANT)
     Q_PROPERTY(QString mdiFax READ mdiFax CONSTANT)
+    Q_PROPERTY(QString mdiFeather READ mdiFeather CONSTANT)
     Q_PROPERTY(QString mdiFerry READ mdiFerry CONSTANT)
     Q_PROPERTY(QString mdiFile READ mdiFile CONSTANT)
     Q_PROPERTY(QString mdiFileChart READ mdiFileChart CONSTANT)
@@ -665,6 +688,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFilterRemove READ mdiFilterRemove CONSTANT)
     Q_PROPERTY(QString mdiFilterRemoveOutline READ mdiFilterRemoveOutline CONSTANT)
     Q_PROPERTY(QString mdiFilterVariant READ mdiFilterVariant CONSTANT)
+    Q_PROPERTY(QString mdiFindReplace READ mdiFindReplace CONSTANT)
     Q_PROPERTY(QString mdiFingerprint READ mdiFingerprint CONSTANT)
     Q_PROPERTY(QString mdiFire READ mdiFire CONSTANT)
     Q_PROPERTY(QString mdiFirefox READ mdiFirefox CONSTANT)
@@ -678,6 +702,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFlash READ mdiFlash CONSTANT)
     Q_PROPERTY(QString mdiFlashAuto READ mdiFlashAuto CONSTANT)
     Q_PROPERTY(QString mdiFlashOff READ mdiFlashOff CONSTANT)
+    Q_PROPERTY(QString mdiFlashOutline READ mdiFlashOutline CONSTANT)
     Q_PROPERTY(QString mdiFlashRedEye READ mdiFlashRedEye CONSTANT)
     Q_PROPERTY(QString mdiFlashlight READ mdiFlashlight CONSTANT)
     Q_PROPERTY(QString mdiFlashlightOff READ mdiFlashlightOff CONSTANT)
@@ -706,6 +731,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFolderRemove READ mdiFolderRemove CONSTANT)
     Q_PROPERTY(QString mdiFolderStar READ mdiFolderStar CONSTANT)
     Q_PROPERTY(QString mdiFolderUpload READ mdiFolderUpload CONSTANT)
+    Q_PROPERTY(QString mdiFontAwesome READ mdiFontAwesome CONSTANT)
     Q_PROPERTY(QString mdiFood READ mdiFood CONSTANT)
     Q_PROPERTY(QString mdiFoodApple READ mdiFoodApple CONSTANT)
     Q_PROPERTY(QString mdiFoodForkDrink READ mdiFoodForkDrink CONSTANT)
@@ -727,6 +753,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFormatFloatLeft READ mdiFormatFloatLeft CONSTANT)
     Q_PROPERTY(QString mdiFormatFloatNone READ mdiFormatFloatNone CONSTANT)
     Q_PROPERTY(QString mdiFormatFloatRight READ mdiFormatFloatRight CONSTANT)
+    Q_PROPERTY(QString mdiFormatFont READ mdiFormatFont CONSTANT)
     Q_PROPERTY(QString mdiFormatHeader1 READ mdiFormatHeader1 CONSTANT)
     Q_PROPERTY(QString mdiFormatHeader2 READ mdiFormatHeader2 CONSTANT)
     Q_PROPERTY(QString mdiFormatHeader3 READ mdiFormatHeader3 CONSTANT)
@@ -749,9 +776,12 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFormatListBulleted READ mdiFormatListBulleted CONSTANT)
     Q_PROPERTY(QString mdiFormatListBulletedType READ mdiFormatListBulletedType CONSTANT)
     Q_PROPERTY(QString mdiFormatListNumbers READ mdiFormatListNumbers CONSTANT)
+    Q_PROPERTY(QString mdiFormatPageBreak READ mdiFormatPageBreak CONSTANT)
     Q_PROPERTY(QString mdiFormatPaint READ mdiFormatPaint CONSTANT)
     Q_PROPERTY(QString mdiFormatParagraph READ mdiFormatParagraph CONSTANT)
+    Q_PROPERTY(QString mdiFormatPilcrow READ mdiFormatPilcrow CONSTANT)
     Q_PROPERTY(QString mdiFormatQuote READ mdiFormatQuote CONSTANT)
+    Q_PROPERTY(QString mdiFormatRotate90 READ mdiFormatRotate90 CONSTANT)
     Q_PROPERTY(QString mdiFormatSection READ mdiFormatSection CONSTANT)
     Q_PROPERTY(QString mdiFormatSize READ mdiFormatSize CONSTANT)
     Q_PROPERTY(QString mdiFormatStrikethrough READ mdiFormatStrikethrough CONSTANT)
@@ -782,6 +812,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiFunction READ mdiFunction CONSTANT)
     Q_PROPERTY(QString mdiGamepad READ mdiGamepad CONSTANT)
     Q_PROPERTY(QString mdiGamepadVariant READ mdiGamepadVariant CONSTANT)
+    Q_PROPERTY(QString mdiGarage READ mdiGarage CONSTANT)
+    Q_PROPERTY(QString mdiGarageOpen READ mdiGarageOpen CONSTANT)
     Q_PROPERTY(QString mdiGasCylinder READ mdiGasCylinder CONSTANT)
     Q_PROPERTY(QString mdiGasStation READ mdiGasStation CONSTANT)
     Q_PROPERTY(QString mdiGate READ mdiGate CONSTANT)
@@ -796,6 +828,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiGit READ mdiGit CONSTANT)
     Q_PROPERTY(QString mdiGithubBox READ mdiGithubBox CONSTANT)
     Q_PROPERTY(QString mdiGithubCircle READ mdiGithubCircle CONSTANT)
+    Q_PROPERTY(QString mdiGithubFace READ mdiGithubFace CONSTANT)
     Q_PROPERTY(QString mdiGlassFlute READ mdiGlassFlute CONSTANT)
     Q_PROPERTY(QString mdiGlassMug READ mdiGlassMug CONSTANT)
     Q_PROPERTY(QString mdiGlassStange READ mdiGlassStange CONSTANT)
@@ -817,9 +850,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiGoogleDrive READ mdiGoogleDrive CONSTANT)
     Q_PROPERTY(QString mdiGoogleEarth READ mdiGoogleEarth CONSTANT)
     Q_PROPERTY(QString mdiGoogleGlass READ mdiGoogleGlass CONSTANT)
+    Q_PROPERTY(QString mdiGoogleKeep READ mdiGoogleKeep CONSTANT)
     Q_PROPERTY(QString mdiGoogleMaps READ mdiGoogleMaps CONSTANT)
     Q_PROPERTY(QString mdiGoogleNearby READ mdiGoogleNearby CONSTANT)
     Q_PROPERTY(QString mdiGooglePages READ mdiGooglePages CONSTANT)
+    Q_PROPERTY(QString mdiGooglePhotos READ mdiGooglePhotos CONSTANT)
     Q_PROPERTY(QString mdiGooglePhysicalWeb READ mdiGooglePhysicalWeb CONSTANT)
     Q_PROPERTY(QString mdiGooglePlay READ mdiGooglePlay CONSTANT)
     Q_PROPERTY(QString mdiGooglePlus READ mdiGooglePlus CONSTANT)
@@ -850,12 +885,16 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiHeartBox READ mdiHeartBox CONSTANT)
     Q_PROPERTY(QString mdiHeartBoxOutline READ mdiHeartBoxOutline CONSTANT)
     Q_PROPERTY(QString mdiHeartBroken READ mdiHeartBroken CONSTANT)
+    Q_PROPERTY(QString mdiHeartHalfOutline READ mdiHeartHalfOutline CONSTANT)
+    Q_PROPERTY(QString mdiHeartHalfPart READ mdiHeartHalfPart CONSTANT)
+    Q_PROPERTY(QString mdiHeartHalfPartOutline READ mdiHeartHalfPartOutline CONSTANT)
     Q_PROPERTY(QString mdiHeartOutline READ mdiHeartOutline CONSTANT)
     Q_PROPERTY(QString mdiHeartPulse READ mdiHeartPulse CONSTANT)
     Q_PROPERTY(QString mdiHelp READ mdiHelp CONSTANT)
     Q_PROPERTY(QString mdiHelpCircle READ mdiHelpCircle CONSTANT)
     Q_PROPERTY(QString mdiHelpCircleOutline READ mdiHelpCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiHexagon READ mdiHexagon CONSTANT)
+    Q_PROPERTY(QString mdiHexagonMultiple READ mdiHexagonMultiple CONSTANT)
     Q_PROPERTY(QString mdiHexagonOutline READ mdiHexagonOutline CONSTANT)
     Q_PROPERTY(QString mdiHighway READ mdiHighway CONSTANT)
     Q_PROPERTY(QString mdiHistory READ mdiHistory CONSTANT)
@@ -865,6 +904,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiHomeModern READ mdiHomeModern CONSTANT)
     Q_PROPERTY(QString mdiHomeOutline READ mdiHomeOutline CONSTANT)
     Q_PROPERTY(QString mdiHomeVariant READ mdiHomeVariant CONSTANT)
+    Q_PROPERTY(QString mdiHook READ mdiHook CONSTANT)
+    Q_PROPERTY(QString mdiHookOff READ mdiHookOff CONSTANT)
     Q_PROPERTY(QString mdiHops READ mdiHops CONSTANT)
     Q_PROPERTY(QString mdiHospital READ mdiHospital CONSTANT)
     Q_PROPERTY(QString mdiHospitalBuilding READ mdiHospitalBuilding CONSTANT)
@@ -903,6 +944,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiInboxArrowDown READ mdiInboxArrowDown CONSTANT)
     Q_PROPERTY(QString mdiInboxArrowUp READ mdiInboxArrowUp CONSTANT)
     Q_PROPERTY(QString mdiIncognito READ mdiIncognito CONSTANT)
+    Q_PROPERTY(QString mdiInfinity READ mdiInfinity CONSTANT)
     Q_PROPERTY(QString mdiInformation READ mdiInformation CONSTANT)
     Q_PROPERTY(QString mdiInformationOutline READ mdiInformationOutline CONSTANT)
     Q_PROPERTY(QString mdiInformationVariant READ mdiInformationVariant CONSTANT)
@@ -949,9 +991,12 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiLanguagePhp READ mdiLanguagePhp CONSTANT)
     Q_PROPERTY(QString mdiLanguagePython READ mdiLanguagePython CONSTANT)
     Q_PROPERTY(QString mdiLanguagePythonText READ mdiLanguagePythonText CONSTANT)
+    Q_PROPERTY(QString mdiLanguageSwift READ mdiLanguageSwift CONSTANT)
+    Q_PROPERTY(QString mdiLanguageTypescript READ mdiLanguageTypescript CONSTANT)
     Q_PROPERTY(QString mdiLaptop READ mdiLaptop CONSTANT)
     Q_PROPERTY(QString mdiLaptopChromebook READ mdiLaptopChromebook CONSTANT)
     Q_PROPERTY(QString mdiLaptopMac READ mdiLaptopMac CONSTANT)
+    Q_PROPERTY(QString mdiLaptopOff READ mdiLaptopOff CONSTANT)
     Q_PROPERTY(QString mdiLaptopWindows READ mdiLaptopWindows CONSTANT)
     Q_PROPERTY(QString mdiLastfm READ mdiLastfm CONSTANT)
     Q_PROPERTY(QString mdiLaunch READ mdiLaunch CONSTANT)
@@ -970,6 +1015,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiLibraryMusic READ mdiLibraryMusic CONSTANT)
     Q_PROPERTY(QString mdiLibraryPlus READ mdiLibraryPlus CONSTANT)
     Q_PROPERTY(QString mdiLightbulb READ mdiLightbulb CONSTANT)
+    Q_PROPERTY(QString mdiLightbulbOn READ mdiLightbulbOn CONSTANT)
+    Q_PROPERTY(QString mdiLightbulbOnOutline READ mdiLightbulbOnOutline CONSTANT)
     Q_PROPERTY(QString mdiLightbulbOutline READ mdiLightbulbOutline CONSTANT)
     Q_PROPERTY(QString mdiLink READ mdiLink CONSTANT)
     Q_PROPERTY(QString mdiLinkOff READ mdiLinkOff CONSTANT)
@@ -982,20 +1029,25 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiLockOpen READ mdiLockOpen CONSTANT)
     Q_PROPERTY(QString mdiLockOpenOutline READ mdiLockOpenOutline CONSTANT)
     Q_PROPERTY(QString mdiLockOutline READ mdiLockOutline CONSTANT)
+    Q_PROPERTY(QString mdiLockPattern READ mdiLockPattern CONSTANT)
     Q_PROPERTY(QString mdiLockPlus READ mdiLockPlus CONSTANT)
     Q_PROPERTY(QString mdiLogin READ mdiLogin CONSTANT)
     Q_PROPERTY(QString mdiLoginVariant READ mdiLoginVariant CONSTANT)
     Q_PROPERTY(QString mdiLogout READ mdiLogout CONSTANT)
     Q_PROPERTY(QString mdiLogoutVariant READ mdiLogoutVariant CONSTANT)
     Q_PROPERTY(QString mdiLooks READ mdiLooks CONSTANT)
+    Q_PROPERTY(QString mdiLoop READ mdiLoop CONSTANT)
     Q_PROPERTY(QString mdiLoupe READ mdiLoupe CONSTANT)
     Q_PROPERTY(QString mdiLumx READ mdiLumx CONSTANT)
     Q_PROPERTY(QString mdiMagnet READ mdiMagnet CONSTANT)
     Q_PROPERTY(QString mdiMagnetOn READ mdiMagnetOn CONSTANT)
     Q_PROPERTY(QString mdiMagnify READ mdiMagnify CONSTANT)
     Q_PROPERTY(QString mdiMagnifyMinus READ mdiMagnifyMinus CONSTANT)
+    Q_PROPERTY(QString mdiMagnifyMinusOutline READ mdiMagnifyMinusOutline CONSTANT)
     Q_PROPERTY(QString mdiMagnifyPlus READ mdiMagnifyPlus CONSTANT)
+    Q_PROPERTY(QString mdiMagnifyPlusOutline READ mdiMagnifyPlusOutline CONSTANT)
     Q_PROPERTY(QString mdiMailRu READ mdiMailRu CONSTANT)
+    Q_PROPERTY(QString mdiMailbox READ mdiMailbox CONSTANT)
     Q_PROPERTY(QString mdiMap READ mdiMap CONSTANT)
     Q_PROPERTY(QString mdiMapMarker READ mdiMapMarker CONSTANT)
     Q_PROPERTY(QString mdiMapMarkerCircle READ mdiMapMarkerCircle CONSTANT)
@@ -1013,6 +1065,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiMathCompass READ mdiMathCompass CONSTANT)
     Q_PROPERTY(QString mdiMatrix READ mdiMatrix CONSTANT)
     Q_PROPERTY(QString mdiMaxcdn READ mdiMaxcdn CONSTANT)
+    Q_PROPERTY(QString mdiMedicalBag READ mdiMedicalBag CONSTANT)
     Q_PROPERTY(QString mdiMedium READ mdiMedium CONSTANT)
     Q_PROPERTY(QString mdiMemory READ mdiMemory CONSTANT)
     Q_PROPERTY(QString mdiMenu READ mdiMenu CONSTANT)
@@ -1033,6 +1086,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiMessageProcessing READ mdiMessageProcessing CONSTANT)
     Q_PROPERTY(QString mdiMessageReply READ mdiMessageReply CONSTANT)
     Q_PROPERTY(QString mdiMessageReplyText READ mdiMessageReplyText CONSTANT)
+    Q_PROPERTY(QString mdiMessageSettings READ mdiMessageSettings CONSTANT)
+    Q_PROPERTY(QString mdiMessageSettingsVariant READ mdiMessageSettingsVariant CONSTANT)
     Q_PROPERTY(QString mdiMessageText READ mdiMessageText CONSTANT)
     Q_PROPERTY(QString mdiMessageTextOutline READ mdiMessageTextOutline CONSTANT)
     Q_PROPERTY(QString mdiMessageVideo READ mdiMessageVideo CONSTANT)
@@ -1048,6 +1103,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiMinecraft READ mdiMinecraft CONSTANT)
     Q_PROPERTY(QString mdiMinus READ mdiMinus CONSTANT)
     Q_PROPERTY(QString mdiMinusBox READ mdiMinusBox CONSTANT)
+    Q_PROPERTY(QString mdiMinusBoxOutline READ mdiMinusBoxOutline CONSTANT)
     Q_PROPERTY(QString mdiMinusCircle READ mdiMinusCircle CONSTANT)
     Q_PROPERTY(QString mdiMinusCircleOutline READ mdiMinusCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiMinusNetwork READ mdiMinusNetwork CONSTANT)
@@ -1084,6 +1140,10 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiNeedle READ mdiNeedle CONSTANT)
     Q_PROPERTY(QString mdiNestProtect READ mdiNestProtect CONSTANT)
     Q_PROPERTY(QString mdiNestThermostat READ mdiNestThermostat CONSTANT)
+    Q_PROPERTY(QString mdiNetwork READ mdiNetwork CONSTANT)
+    Q_PROPERTY(QString mdiNetworkDownload READ mdiNetworkDownload CONSTANT)
+    Q_PROPERTY(QString mdiNetworkQuestion READ mdiNetworkQuestion CONSTANT)
+    Q_PROPERTY(QString mdiNetworkUpload READ mdiNetworkUpload CONSTANT)
     Q_PROPERTY(QString mdiNewBox READ mdiNewBox CONSTANT)
     Q_PROPERTY(QString mdiNewspaper READ mdiNewspaper CONSTANT)
     Q_PROPERTY(QString mdiNfc READ mdiNfc CONSTANT)
@@ -1098,6 +1158,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiNotePlusOutline READ mdiNotePlusOutline CONSTANT)
     Q_PROPERTY(QString mdiNoteText READ mdiNoteText CONSTANT)
     Q_PROPERTY(QString mdiNotificationClearAll READ mdiNotificationClearAll CONSTANT)
+    Q_PROPERTY(QString mdiNpm READ mdiNpm CONSTANT)
     Q_PROPERTY(QString mdiNuke READ mdiNuke CONSTANT)
     Q_PROPERTY(QString mdiNumeric READ mdiNumeric CONSTANT)
     Q_PROPERTY(QString mdiNumeric0Box READ mdiNumeric0Box CONSTANT)
@@ -1133,10 +1194,12 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiNumeric9PlusBox READ mdiNumeric9PlusBox CONSTANT)
     Q_PROPERTY(QString mdiNumeric9PlusBoxMultipleOutline READ mdiNumeric9PlusBoxMultipleOutline CONSTANT)
     Q_PROPERTY(QString mdiNumeric9PlusBoxOutline READ mdiNumeric9PlusBoxOutline CONSTANT)
+    Q_PROPERTY(QString mdiNut READ mdiNut CONSTANT)
     Q_PROPERTY(QString mdiNutrition READ mdiNutrition CONSTANT)
     Q_PROPERTY(QString mdiOar READ mdiOar CONSTANT)
     Q_PROPERTY(QString mdiOctagon READ mdiOctagon CONSTANT)
     Q_PROPERTY(QString mdiOctagonOutline READ mdiOctagonOutline CONSTANT)
+    Q_PROPERTY(QString mdiOctagram READ mdiOctagram CONSTANT)
     Q_PROPERTY(QString mdiOdnoklassniki READ mdiOdnoklassniki CONSTANT)
     Q_PROPERTY(QString mdiOffice READ mdiOffice CONSTANT)
     Q_PROPERTY(QString mdiOil READ mdiOil CONSTANT)
@@ -1158,6 +1221,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiPackageVariantClosed READ mdiPackageVariantClosed CONSTANT)
     Q_PROPERTY(QString mdiPageFirst READ mdiPageFirst CONSTANT)
     Q_PROPERTY(QString mdiPageLast READ mdiPageLast CONSTANT)
+    Q_PROPERTY(QString mdiPageLayoutBody READ mdiPageLayoutBody CONSTANT)
+    Q_PROPERTY(QString mdiPageLayoutFooter READ mdiPageLayoutFooter CONSTANT)
+    Q_PROPERTY(QString mdiPageLayoutHeader READ mdiPageLayoutHeader CONSTANT)
+    Q_PROPERTY(QString mdiPageLayoutSidebarLeft READ mdiPageLayoutSidebarLeft CONSTANT)
+    Q_PROPERTY(QString mdiPageLayoutSidebarRight READ mdiPageLayoutSidebarRight CONSTANT)
     Q_PROPERTY(QString mdiPalette READ mdiPalette CONSTANT)
     Q_PROPERTY(QString mdiPaletteAdvanced READ mdiPaletteAdvanced CONSTANT)
     Q_PROPERTY(QString mdiPanda READ mdiPanda CONSTANT)
@@ -1181,8 +1249,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiPencil READ mdiPencil CONSTANT)
     Q_PROPERTY(QString mdiPencilBox READ mdiPencilBox CONSTANT)
     Q_PROPERTY(QString mdiPencilBoxOutline READ mdiPencilBoxOutline CONSTANT)
+    Q_PROPERTY(QString mdiPencilCircle READ mdiPencilCircle CONSTANT)
     Q_PROPERTY(QString mdiPencilLock READ mdiPencilLock CONSTANT)
     Q_PROPERTY(QString mdiPencilOff READ mdiPencilOff CONSTANT)
+    Q_PROPERTY(QString mdiPentagon READ mdiPentagon CONSTANT)
+    Q_PROPERTY(QString mdiPentagonOutline READ mdiPentagonOutline CONSTANT)
     Q_PROPERTY(QString mdiPercent READ mdiPercent CONSTANT)
     Q_PROPERTY(QString mdiPharmacy READ mdiPharmacy CONSTANT)
     Q_PROPERTY(QString mdiPhone READ mdiPhone CONSTANT)
@@ -1206,12 +1277,14 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiPiano READ mdiPiano CONSTANT)
     Q_PROPERTY(QString mdiPig READ mdiPig CONSTANT)
     Q_PROPERTY(QString mdiPill READ mdiPill CONSTANT)
+    Q_PROPERTY(QString mdiPillar READ mdiPillar CONSTANT)
     Q_PROPERTY(QString mdiPin READ mdiPin CONSTANT)
     Q_PROPERTY(QString mdiPinOff READ mdiPinOff CONSTANT)
     Q_PROPERTY(QString mdiPineTree READ mdiPineTree CONSTANT)
     Q_PROPERTY(QString mdiPineTreeBox READ mdiPineTreeBox CONSTANT)
     Q_PROPERTY(QString mdiPinterest READ mdiPinterest CONSTANT)
     Q_PROPERTY(QString mdiPinterestBox READ mdiPinterestBox CONSTANT)
+    Q_PROPERTY(QString mdiPistol READ mdiPistol CONSTANT)
     Q_PROPERTY(QString mdiPizza READ mdiPizza CONSTANT)
     Q_PROPERTY(QString mdiPlaneShield READ mdiPlaneShield CONSTANT)
     Q_PROPERTY(QString mdiPlay READ mdiPlay CONSTANT)
@@ -1229,11 +1302,13 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiPlex READ mdiPlex CONSTANT)
     Q_PROPERTY(QString mdiPlus READ mdiPlus CONSTANT)
     Q_PROPERTY(QString mdiPlusBox READ mdiPlusBox CONSTANT)
+    Q_PROPERTY(QString mdiPlusBoxOutline READ mdiPlusBoxOutline CONSTANT)
     Q_PROPERTY(QString mdiPlusCircle READ mdiPlusCircle CONSTANT)
     Q_PROPERTY(QString mdiPlusCircleMultipleOutline READ mdiPlusCircleMultipleOutline CONSTANT)
     Q_PROPERTY(QString mdiPlusCircleOutline READ mdiPlusCircleOutline CONSTANT)
     Q_PROPERTY(QString mdiPlusNetwork READ mdiPlusNetwork CONSTANT)
     Q_PROPERTY(QString mdiPlusOne READ mdiPlusOne CONSTANT)
+    Q_PROPERTY(QString mdiPlusOutline READ mdiPlusOutline CONSTANT)
     Q_PROPERTY(QString mdiPocket READ mdiPocket CONSTANT)
     Q_PROPERTY(QString mdiPokeball READ mdiPokeball CONSTANT)
     Q_PROPERTY(QString mdiPolaroid READ mdiPolaroid CONSTANT)
@@ -1251,11 +1326,13 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiPowerPlugOff READ mdiPowerPlugOff CONSTANT)
     Q_PROPERTY(QString mdiPowerSettings READ mdiPowerSettings CONSTANT)
     Q_PROPERTY(QString mdiPowerSocket READ mdiPowerSocket CONSTANT)
+    Q_PROPERTY(QString mdiPrescription READ mdiPrescription CONSTANT)
     Q_PROPERTY(QString mdiPresentation READ mdiPresentation CONSTANT)
     Q_PROPERTY(QString mdiPresentationPlay READ mdiPresentationPlay CONSTANT)
     Q_PROPERTY(QString mdiPrinter READ mdiPrinter CONSTANT)
     Q_PROPERTY(QString mdiPrinter3d READ mdiPrinter3d CONSTANT)
     Q_PROPERTY(QString mdiPrinterAlert READ mdiPrinterAlert CONSTANT)
+    Q_PROPERTY(QString mdiPrinterSettings READ mdiPrinterSettings CONSTANT)
     Q_PROPERTY(QString mdiPriorityHigh READ mdiPriorityHigh CONSTANT)
     Q_PROPERTY(QString mdiPriorityLow READ mdiPriorityLow CONSTANT)
     Q_PROPERTY(QString mdiProfessionalHexagon READ mdiProfessionalHexagon CONSTANT)
@@ -1286,6 +1363,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiRayStartEnd READ mdiRayStartEnd CONSTANT)
     Q_PROPERTY(QString mdiRayVertex READ mdiRayVertex CONSTANT)
     Q_PROPERTY(QString mdiRdio READ mdiRdio CONSTANT)
+    Q_PROPERTY(QString mdiReact READ mdiReact CONSTANT)
     Q_PROPERTY(QString mdiRead READ mdiRead CONSTANT)
     Q_PROPERTY(QString mdiReadability READ mdiReadability CONSTANT)
     Q_PROPERTY(QString mdiReceipt READ mdiReceipt CONSTANT)
@@ -1312,15 +1390,19 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiReproduction READ mdiReproduction CONSTANT)
     Q_PROPERTY(QString mdiResizeBottomRight READ mdiResizeBottomRight CONSTANT)
     Q_PROPERTY(QString mdiResponsive READ mdiResponsive CONSTANT)
+    Q_PROPERTY(QString mdiRestart READ mdiRestart CONSTANT)
     Q_PROPERTY(QString mdiRestore READ mdiRestore CONSTANT)
     Q_PROPERTY(QString mdiRewind READ mdiRewind CONSTANT)
+    Q_PROPERTY(QString mdiRewindOutline READ mdiRewindOutline CONSTANT)
+    Q_PROPERTY(QString mdiRhombus READ mdiRhombus CONSTANT)
+    Q_PROPERTY(QString mdiRhombusOutline READ mdiRhombusOutline CONSTANT)
     Q_PROPERTY(QString mdiRibbon READ mdiRibbon CONSTANT)
     Q_PROPERTY(QString mdiRoad READ mdiRoad CONSTANT)
     Q_PROPERTY(QString mdiRoadVariant READ mdiRoadVariant CONSTANT)
     Q_PROPERTY(QString mdiRobot READ mdiRobot CONSTANT)
     Q_PROPERTY(QString mdiRocket READ mdiRocket CONSTANT)
+    Q_PROPERTY(QString mdiRoomba READ mdiRoomba CONSTANT)
     Q_PROPERTY(QString mdiRotate3d READ mdiRotate3d CONSTANT)
-    Q_PROPERTY(QString mdiRotate90 READ mdiRotate90 CONSTANT)
     Q_PROPERTY(QString mdiRotateLeft READ mdiRotateLeft CONSTANT)
     Q_PROPERTY(QString mdiRotateLeftVariant READ mdiRotateLeftVariant CONSTANT)
     Q_PROPERTY(QString mdiRotateRight READ mdiRotateRight CONSTANT)
@@ -1333,6 +1415,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiRssBox READ mdiRssBox CONSTANT)
     Q_PROPERTY(QString mdiRuler READ mdiRuler CONSTANT)
     Q_PROPERTY(QString mdiRun READ mdiRun CONSTANT)
+    Q_PROPERTY(QString mdiRunFast READ mdiRunFast CONSTANT)
     Q_PROPERTY(QString mdiSale READ mdiSale CONSTANT)
     Q_PROPERTY(QString mdiSatellite READ mdiSatellite CONSTANT)
     Q_PROPERTY(QString mdiSatelliteVariant READ mdiSatelliteVariant CONSTANT)
@@ -1348,6 +1431,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiScript READ mdiScript CONSTANT)
     Q_PROPERTY(QString mdiSd READ mdiSd CONSTANT)
     Q_PROPERTY(QString mdiSeal READ mdiSeal CONSTANT)
+    Q_PROPERTY(QString mdiSearchWeb READ mdiSearchWeb CONSTANT)
     Q_PROPERTY(QString mdiSeatFlat READ mdiSeatFlat CONSTANT)
     Q_PROPERTY(QString mdiSeatFlatAngled READ mdiSeatFlatAngled CONSTANT)
     Q_PROPERTY(QString mdiSeatIndividualSuite READ mdiSeatIndividualSuite CONSTANT)
@@ -1387,6 +1471,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiShieldOutline READ mdiShieldOutline CONSTANT)
     Q_PROPERTY(QString mdiShopping READ mdiShopping CONSTANT)
     Q_PROPERTY(QString mdiShoppingMusic READ mdiShoppingMusic CONSTANT)
+    Q_PROPERTY(QString mdiShovel READ mdiShovel CONSTANT)
+    Q_PROPERTY(QString mdiShovelOff READ mdiShovelOff CONSTANT)
     Q_PROPERTY(QString mdiShredder READ mdiShredder CONSTANT)
     Q_PROPERTY(QString mdiShuffle READ mdiShuffle CONSTANT)
     Q_PROPERTY(QString mdiShuffleDisabled READ mdiShuffleDisabled CONSTANT)
@@ -1395,6 +1481,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiSigmaLower READ mdiSigmaLower CONSTANT)
     Q_PROPERTY(QString mdiSignCaution READ mdiSignCaution CONSTANT)
     Q_PROPERTY(QString mdiSignal READ mdiSignal CONSTANT)
+    Q_PROPERTY(QString mdiSignal2g READ mdiSignal2g CONSTANT)
+    Q_PROPERTY(QString mdiSignal3g READ mdiSignal3g CONSTANT)
+    Q_PROPERTY(QString mdiSignal4g READ mdiSignal4g CONSTANT)
+    Q_PROPERTY(QString mdiSignalHspa READ mdiSignalHspa CONSTANT)
+    Q_PROPERTY(QString mdiSignalHspaPlus READ mdiSignalHspaPlus CONSTANT)
     Q_PROPERTY(QString mdiSignalVariant READ mdiSignalVariant CONSTANT)
     Q_PROPERTY(QString mdiSilverware READ mdiSilverware CONSTANT)
     Q_PROPERTY(QString mdiSilverwareFork READ mdiSilverwareFork CONSTANT)
@@ -1421,6 +1512,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiSmoking READ mdiSmoking CONSTANT)
     Q_PROPERTY(QString mdiSmokingOff READ mdiSmokingOff CONSTANT)
     Q_PROPERTY(QString mdiSnapchat READ mdiSnapchat CONSTANT)
+    Q_PROPERTY(QString mdiSnowflake READ mdiSnowflake CONSTANT)
     Q_PROPERTY(QString mdiSnowman READ mdiSnowman CONSTANT)
     Q_PROPERTY(QString mdiSoccer READ mdiSoccer CONSTANT)
     Q_PROPERTY(QString mdiSofa READ mdiSofa CONSTANT)
@@ -1433,11 +1525,19 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiSortVariant READ mdiSortVariant CONSTANT)
     Q_PROPERTY(QString mdiSoundcloud READ mdiSoundcloud CONSTANT)
     Q_PROPERTY(QString mdiSourceBranch READ mdiSourceBranch CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommit READ mdiSourceCommit CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitEnd READ mdiSourceCommitEnd CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitEndLocal READ mdiSourceCommitEndLocal CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitLocal READ mdiSourceCommitLocal CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitNextLocal READ mdiSourceCommitNextLocal CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitStart READ mdiSourceCommitStart CONSTANT)
+    Q_PROPERTY(QString mdiSourceCommitStartNextLocal READ mdiSourceCommitStartNextLocal CONSTANT)
     Q_PROPERTY(QString mdiSourceFork READ mdiSourceFork CONSTANT)
     Q_PROPERTY(QString mdiSourceMerge READ mdiSourceMerge CONSTANT)
     Q_PROPERTY(QString mdiSourcePull READ mdiSourcePull CONSTANT)
     Q_PROPERTY(QString mdiSpeaker READ mdiSpeaker CONSTANT)
     Q_PROPERTY(QString mdiSpeakerOff READ mdiSpeakerOff CONSTANT)
+    Q_PROPERTY(QString mdiSpeakerWireless READ mdiSpeakerWireless CONSTANT)
     Q_PROPERTY(QString mdiSpeedometer READ mdiSpeedometer CONSTANT)
     Q_PROPERTY(QString mdiSpellcheck READ mdiSpellcheck CONSTANT)
     Q_PROPERTY(QString mdiSpotify READ mdiSpotify CONSTANT)
@@ -1448,6 +1548,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiSquareIncCash READ mdiSquareIncCash CONSTANT)
     Q_PROPERTY(QString mdiStackexchange READ mdiStackexchange CONSTANT)
     Q_PROPERTY(QString mdiStackoverflow READ mdiStackoverflow CONSTANT)
+    Q_PROPERTY(QString mdiStadium READ mdiStadium CONSTANT)
     Q_PROPERTY(QString mdiStairs READ mdiStairs CONSTANT)
     Q_PROPERTY(QString mdiStar READ mdiStar CONSTANT)
     Q_PROPERTY(QString mdiStarCircle READ mdiStarCircle CONSTANT)
@@ -1475,6 +1576,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiSubwayVariant READ mdiSubwayVariant CONSTANT)
     Q_PROPERTY(QString mdiSunglasses READ mdiSunglasses CONSTANT)
     Q_PROPERTY(QString mdiSurroundSound READ mdiSurroundSound CONSTANT)
+    Q_PROPERTY(QString mdiSvg READ mdiSvg CONSTANT)
     Q_PROPERTY(QString mdiSwapHorizontal READ mdiSwapHorizontal CONSTANT)
     Q_PROPERTY(QString mdiSwapVertical READ mdiSwapVertical CONSTANT)
     Q_PROPERTY(QString mdiSwim READ mdiSwim CONSTANT)
@@ -1504,6 +1606,8 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiTagHeart READ mdiTagHeart CONSTANT)
     Q_PROPERTY(QString mdiTagMultiple READ mdiTagMultiple CONSTANT)
     Q_PROPERTY(QString mdiTagOutline READ mdiTagOutline CONSTANT)
+    Q_PROPERTY(QString mdiTagPlus READ mdiTagPlus CONSTANT)
+    Q_PROPERTY(QString mdiTagRemove READ mdiTagRemove CONSTANT)
     Q_PROPERTY(QString mdiTagTextOutline READ mdiTagTextOutline CONSTANT)
     Q_PROPERTY(QString mdiTarget READ mdiTarget CONSTANT)
     Q_PROPERTY(QString mdiTaxi READ mdiTaxi CONSTANT)
@@ -1535,7 +1639,9 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiTicket READ mdiTicket CONSTANT)
     Q_PROPERTY(QString mdiTicketAccount READ mdiTicketAccount CONSTANT)
     Q_PROPERTY(QString mdiTicketConfirmation READ mdiTicketConfirmation CONSTANT)
+    Q_PROPERTY(QString mdiTicketPercent READ mdiTicketPercent CONSTANT)
     Q_PROPERTY(QString mdiTie READ mdiTie CONSTANT)
+    Q_PROPERTY(QString mdiTilde READ mdiTilde CONSTANT)
     Q_PROPERTY(QString mdiTimelapse READ mdiTimelapse CONSTANT)
     Q_PROPERTY(QString mdiTimer READ mdiTimer CONSTANT)
     Q_PROPERTY(QString mdiTimer10 READ mdiTimer10 CONSTANT)
@@ -1564,6 +1670,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiTransfer READ mdiTransfer CONSTANT)
     Q_PROPERTY(QString mdiTransitTransfer READ mdiTransitTransfer CONSTANT)
     Q_PROPERTY(QString mdiTranslate READ mdiTranslate CONSTANT)
+    Q_PROPERTY(QString mdiTreasureChest READ mdiTreasureChest CONSTANT)
     Q_PROPERTY(QString mdiTree READ mdiTree CONSTANT)
     Q_PROPERTY(QString mdiTrello READ mdiTrello CONSTANT)
     Q_PROPERTY(QString mdiTrendingDown READ mdiTrendingDown CONSTANT)
@@ -1578,6 +1685,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiTrophyVariantOutline READ mdiTrophyVariantOutline CONSTANT)
     Q_PROPERTY(QString mdiTruck READ mdiTruck CONSTANT)
     Q_PROPERTY(QString mdiTruckDelivery READ mdiTruckDelivery CONSTANT)
+    Q_PROPERTY(QString mdiTruckTrailer READ mdiTruckTrailer CONSTANT)
     Q_PROPERTY(QString mdiTshirtCrew READ mdiTshirtCrew CONSTANT)
     Q_PROPERTY(QString mdiTshirtV READ mdiTshirtV CONSTANT)
     Q_PROPERTY(QString mdiTumblr READ mdiTumblr CONSTANT)
@@ -1637,7 +1745,9 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiViewHeadline READ mdiViewHeadline CONSTANT)
     Q_PROPERTY(QString mdiViewList READ mdiViewList CONSTANT)
     Q_PROPERTY(QString mdiViewModule READ mdiViewModule CONSTANT)
+    Q_PROPERTY(QString mdiViewParallel READ mdiViewParallel CONSTANT)
     Q_PROPERTY(QString mdiViewQuilt READ mdiViewQuilt CONSTANT)
+    Q_PROPERTY(QString mdiViewSequential READ mdiViewSequential CONSTANT)
     Q_PROPERTY(QString mdiViewStream READ mdiViewStream CONSTANT)
     Q_PROPERTY(QString mdiViewWeek READ mdiViewWeek CONSTANT)
     Q_PROPERTY(QString mdiVimeo READ mdiVimeo CONSTANT)
@@ -1661,6 +1771,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiWalletMembership READ mdiWalletMembership CONSTANT)
     Q_PROPERTY(QString mdiWalletTravel READ mdiWalletTravel CONSTANT)
     Q_PROPERTY(QString mdiWan READ mdiWan CONSTANT)
+    Q_PROPERTY(QString mdiWashingMachine READ mdiWashingMachine CONSTANT)
     Q_PROPERTY(QString mdiWatch READ mdiWatch CONSTANT)
     Q_PROPERTY(QString mdiWatchExport READ mdiWatchExport CONSTANT)
     Q_PROPERTY(QString mdiWatchImport READ mdiWatchImport CONSTANT)
@@ -1690,6 +1801,7 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiWeb READ mdiWeb CONSTANT)
     Q_PROPERTY(QString mdiWebcam READ mdiWebcam CONSTANT)
     Q_PROPERTY(QString mdiWebhook READ mdiWebhook CONSTANT)
+    Q_PROPERTY(QString mdiWebpack READ mdiWebpack CONSTANT)
     Q_PROPERTY(QString mdiWechat READ mdiWechat CONSTANT)
     Q_PROPERTY(QString mdiWeight READ mdiWeight CONSTANT)
     Q_PROPERTY(QString mdiWeightKilogram READ mdiWeightKilogram CONSTANT)
@@ -1699,9 +1811,11 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiWhiteBalanceIncandescent READ mdiWhiteBalanceIncandescent CONSTANT)
     Q_PROPERTY(QString mdiWhiteBalanceIridescent READ mdiWhiteBalanceIridescent CONSTANT)
     Q_PROPERTY(QString mdiWhiteBalanceSunny READ mdiWhiteBalanceSunny CONSTANT)
+    Q_PROPERTY(QString mdiWidgets READ mdiWidgets CONSTANT)
     Q_PROPERTY(QString mdiWifi READ mdiWifi CONSTANT)
     Q_PROPERTY(QString mdiWifiOff READ mdiWifiOff CONSTANT)
     Q_PROPERTY(QString mdiWii READ mdiWii CONSTANT)
+    Q_PROPERTY(QString mdiWiiu READ mdiWiiu CONSTANT)
     Q_PROPERTY(QString mdiWikipedia READ mdiWikipedia CONSTANT)
     Q_PROPERTY(QString mdiWindowClose READ mdiWindowClose CONSTANT)
     Q_PROPERTY(QString mdiWindowClosed READ mdiWindowClosed CONSTANT)
@@ -1729,7 +1843,6 @@ class MaterialIcons : public QObject {
     Q_PROPERTY(QString mdiYinYang READ mdiYinYang CONSTANT)
     Q_PROPERTY(QString mdiYoutubePlay READ mdiYoutubePlay CONSTANT)
     Q_PROPERTY(QString mdiZipBox READ mdiZipBox CONSTANT)
-    Q_PROPERTY(QString mdiBlank READ mdiBlank CONSTANT)
 
 public:
     QString mdiAccessPoint() const { return "\uf002"; }
@@ -1742,6 +1855,7 @@ public:
     QString mdiAccountCheck() const { return "\uf008"; }
     QString mdiAccountCircle() const { return "\uf009"; }
     QString mdiAccountConvert() const { return "\uf00a"; }
+    QString mdiAccountEdit() const { return "\uf6bb"; }
     QString mdiAccountKey() const { return "\uf00b"; }
     QString mdiAccountLocation() const { return "\uf00c"; }
     QString mdiAccountMinus() const { return "\uf00d"; }
@@ -1780,7 +1894,9 @@ public:
     QString mdiAlertCircle() const { return "\uf028"; }
     QString mdiAlertCircleOutline() const { return "\uf5d6"; }
     QString mdiAlertOctagon() const { return "\uf029"; }
+    QString mdiAlertOctagram() const { return "\uf6bc"; }
     QString mdiAlertOutline() const { return "\uf02a"; }
+    QString mdiAllInclusive() const { return "\uf6bd"; }
     QString mdiAlpha() const { return "\uf02b"; }
     QString mdiAlphabetical() const { return "\uf02c"; }
     QString mdiAltimeter() const { return "\uf5d7"; }
@@ -1793,6 +1909,7 @@ public:
     QString mdiAndroidDebugBridge() const { return "\uf033"; }
     QString mdiAndroidStudio() const { return "\uf034"; }
     QString mdiAngular() const { return "\uf6b1"; }
+    QString mdiAngularjs() const { return "\uf6be"; }
     QString mdiAnimation() const { return "\uf5d8"; }
     QString mdiApple() const { return "\uf035"; }
     QString mdiAppleFinder() const { return "\uf036"; }
@@ -1805,7 +1922,6 @@ public:
     QString mdiAppleMobileme() const { return "\uf038"; }
     QString mdiAppleSafari() const { return "\uf039"; }
     QString mdiApplication() const { return "\uf614"; }
-    QString mdiAppnet() const { return "\uf03a"; }
     QString mdiApps() const { return "\uf03b"; }
     QString mdiArchive() const { return "\uf03c"; }
     QString mdiArrangeBringForward() const { return "\uf03d"; }
@@ -1822,6 +1938,7 @@ public:
     QString mdiArrowDownBoldCircle() const { return "\uf047"; }
     QString mdiArrowDownBoldCircleOutline() const { return "\uf048"; }
     QString mdiArrowDownBoldHexagonOutline() const { return "\uf049"; }
+    QString mdiArrowDownBox() const { return "\uf6bf"; }
     QString mdiArrowDownDropCircle() const { return "\uf04a"; }
     QString mdiArrowDownDropCircleOutline() const { return "\uf04b"; }
     QString mdiArrowExpand() const { return "\uf616"; }
@@ -1831,6 +1948,7 @@ public:
     QString mdiArrowLeftBoldCircle() const { return "\uf04f"; }
     QString mdiArrowLeftBoldCircleOutline() const { return "\uf050"; }
     QString mdiArrowLeftBoldHexagonOutline() const { return "\uf051"; }
+    QString mdiArrowLeftBox() const { return "\uf6c0"; }
     QString mdiArrowLeftDropCircle() const { return "\uf052"; }
     QString mdiArrowLeftDropCircleOutline() const { return "\uf053"; }
     QString mdiArrowRight() const { return "\uf054"; }
@@ -1838,6 +1956,7 @@ public:
     QString mdiArrowRightBoldCircle() const { return "\uf056"; }
     QString mdiArrowRightBoldCircleOutline() const { return "\uf057"; }
     QString mdiArrowRightBoldHexagonOutline() const { return "\uf058"; }
+    QString mdiArrowRightBox() const { return "\uf6c1"; }
     QString mdiArrowRightDropCircle() const { return "\uf059"; }
     QString mdiArrowRightDropCircleOutline() const { return "\uf05a"; }
     QString mdiArrowTopLeft() const { return "\uf05b"; }
@@ -1847,9 +1966,11 @@ public:
     QString mdiArrowUpBoldCircle() const { return "\uf05f"; }
     QString mdiArrowUpBoldCircleOutline() const { return "\uf060"; }
     QString mdiArrowUpBoldHexagonOutline() const { return "\uf061"; }
+    QString mdiArrowUpBox() const { return "\uf6c2"; }
     QString mdiArrowUpDropCircle() const { return "\uf062"; }
     QString mdiArrowUpDropCircleOutline() const { return "\uf063"; }
     QString mdiAssistant() const { return "\uf064"; }
+    QString mdiAsterisk() const { return "\uf6c3"; }
     QString mdiAt() const { return "\uf065"; }
     QString mdiAttachment() const { return "\uf066"; }
     QString mdiAudiobook() const { return "\uf067"; }
@@ -1934,6 +2055,7 @@ public:
     QString mdiBlurOff() const { return "\uf0b7"; }
     QString mdiBlurRadial() const { return "\uf0b8"; }
     QString mdiBomb() const { return "\uf690"; }
+    QString mdiBombOff() const { return "\uf6c4"; }
     QString mdiBone() const { return "\uf0b9"; }
     QString mdiBook() const { return "\uf0ba"; }
     QString mdiBookMinus() const { return "\uf5d9"; }
@@ -1952,6 +2074,7 @@ public:
     QString mdiBookmarkPlusOutline() const { return "\uf0c4"; }
     QString mdiBookmarkRemove() const { return "\uf0c6"; }
     QString mdiBoombox() const { return "\uf5dc"; }
+    QString mdiBootstrap() const { return "\uf6c5"; }
     QString mdiBorderAll() const { return "\uf0c7"; }
     QString mdiBorderBottom() const { return "\uf0c8"; }
     QString mdiBorderColor() const { return "\uf0c9"; }
@@ -2039,6 +2162,7 @@ public:
     QString mdiCards() const { return "\uf638"; }
     QString mdiCardsOutline() const { return "\uf639"; }
     QString mdiCardsPlayingOutline() const { return "\uf63a"; }
+    QString mdiCardsVariant() const { return "\uf6c6"; }
     QString mdiCarrot() const { return "\uf10f"; }
     QString mdiCart() const { return "\uf110"; }
     QString mdiCartOff() const { return "\uf66b"; }
@@ -2113,6 +2237,7 @@ public:
     QString mdiClipboardArrowDown() const { return "\uf14a"; }
     QString mdiClipboardArrowLeft() const { return "\uf14b"; }
     QString mdiClipboardCheck() const { return "\uf14c"; }
+    QString mdiClipboardFlow() const { return "\uf6c7"; }
     QString mdiClipboardOutline() const { return "\uf14d"; }
     QString mdiClipboardText() const { return "\uf14e"; }
     QString mdiClippy() const { return "\uf14f"; }
@@ -2131,6 +2256,7 @@ public:
     QString mdiCloseNetwork() const { return "\uf15b"; }
     QString mdiCloseOctagon() const { return "\uf15c"; }
     QString mdiCloseOctagonOutline() const { return "\uf15d"; }
+    QString mdiCloseOutline() const { return "\uf6c8"; }
     QString mdiClosedCaption() const { return "\uf15e"; }
     QString mdiCloud() const { return "\uf15f"; }
     QString mdiCloudCheck() const { return "\uf160"; }
@@ -2158,6 +2284,7 @@ public:
     QString mdiCodeTagsCheck() const { return "\uf693"; }
     QString mdiCodepen() const { return "\uf175"; }
     QString mdiCoffee() const { return "\uf176"; }
+    QString mdiCoffeeOutline() const { return "\uf6c9"; }
     QString mdiCoffeeToGo() const { return "\uf177"; }
     QString mdiCoin() const { return "\uf178"; }
     QString mdiCoins() const { return "\uf694"; }
@@ -2184,6 +2311,7 @@ public:
     QString mdiCompassOutline() const { return "\uf18c"; }
     QString mdiConsole() const { return "\uf18d"; }
     QString mdiContactMail() const { return "\uf18e"; }
+    QString mdiContacts() const { return "\uf6ca"; }
     QString mdiContentCopy() const { return "\uf18f"; }
     QString mdiContentCut() const { return "\uf190"; }
     QString mdiContentDuplicate() const { return "\uf191"; }
@@ -2244,6 +2372,7 @@ public:
     QString mdiDecimalIncrease() const { return "\uf1bf"; }
     QString mdiDelete() const { return "\uf1c0"; }
     QString mdiDeleteCircle() const { return "\uf682"; }
+    QString mdiDeleteEmpty() const { return "\uf6cb"; }
     QString mdiDeleteForever() const { return "\uf5e8"; }
     QString mdiDeleteSweep() const { return "\uf5e9"; }
     QString mdiDeleteVariant() const { return "\uf1c1"; }
@@ -2299,6 +2428,8 @@ public:
     QString mdiDuck() const { return "\uf1e5"; }
     QString mdiDumbbell() const { return "\uf1e6"; }
     QString mdiEarth() const { return "\uf1e7"; }
+    QString mdiEarthBox() const { return "\uf6cc"; }
+    QString mdiEarthBoxOff() const { return "\uf6cd"; }
     QString mdiEarthOff() const { return "\uf1e8"; }
     QString mdiEdge() const { return "\uf1e9"; }
     QString mdiEject() const { return "\uf1ea"; }
@@ -2306,6 +2437,7 @@ public:
     QString mdiElevationRise() const { return "\uf1ec"; }
     QString mdiElevator() const { return "\uf1ed"; }
     QString mdiEmail() const { return "\uf1ee"; }
+    QString mdiEmailAlert() const { return "\uf6ce"; }
     QString mdiEmailOpen() const { return "\uf1ef"; }
     QString mdiEmailOpenOutline() const { return "\uf5ef"; }
     QString mdiEmailOutline() const { return "\uf1f0"; }
@@ -2340,6 +2472,8 @@ public:
     QString mdiExport() const { return "\uf207"; }
     QString mdiEye() const { return "\uf208"; }
     QString mdiEyeOff() const { return "\uf209"; }
+    QString mdiEyeOutline() const { return "\uf6cf"; }
+    QString mdiEyeOutlineOff() const { return "\uf6d0"; }
     QString mdiEyedropper() const { return "\uf20a"; }
     QString mdiEyedropperVariant() const { return "\uf20b"; }
     QString mdiFace() const { return "\uf643"; }
@@ -2350,7 +2484,9 @@ public:
     QString mdiFactory() const { return "\uf20f"; }
     QString mdiFan() const { return "\uf210"; }
     QString mdiFastForward() const { return "\uf211"; }
+    QString mdiFastForwardOutline() const { return "\uf6d1"; }
     QString mdiFax() const { return "\uf212"; }
+    QString mdiFeather() const { return "\uf6d2"; }
     QString mdiFerry() const { return "\uf213"; }
     QString mdiFile() const { return "\uf214"; }
     QString mdiFileChart() const { return "\uf215"; }
@@ -2390,6 +2526,7 @@ public:
     QString mdiFilterRemove() const { return "\uf234"; }
     QString mdiFilterRemoveOutline() const { return "\uf235"; }
     QString mdiFilterVariant() const { return "\uf236"; }
+    QString mdiFindReplace() const { return "\uf6d3"; }
     QString mdiFingerprint() const { return "\uf237"; }
     QString mdiFire() const { return "\uf238"; }
     QString mdiFirefox() const { return "\uf239"; }
@@ -2403,6 +2540,7 @@ public:
     QString mdiFlash() const { return "\uf241"; }
     QString mdiFlashAuto() const { return "\uf242"; }
     QString mdiFlashOff() const { return "\uf243"; }
+    QString mdiFlashOutline() const { return "\uf6d4"; }
     QString mdiFlashRedEye() const { return "\uf67a"; }
     QString mdiFlashlight() const { return "\uf244"; }
     QString mdiFlashlightOff() const { return "\uf245"; }
@@ -2431,6 +2569,7 @@ public:
     QString mdiFolderRemove() const { return "\uf258"; }
     QString mdiFolderStar() const { return "\uf69c"; }
     QString mdiFolderUpload() const { return "\uf259"; }
+    QString mdiFontAwesome() const { return "\uf03a"; }
     QString mdiFood() const { return "\uf25a"; }
     QString mdiFoodApple() const { return "\uf25b"; }
     QString mdiFoodForkDrink() const { return "\uf5f2"; }
@@ -2452,6 +2591,7 @@ public:
     QString mdiFormatFloatLeft() const { return "\uf268"; }
     QString mdiFormatFloatNone() const { return "\uf269"; }
     QString mdiFormatFloatRight() const { return "\uf26a"; }
+    QString mdiFormatFont() const { return "\uf6d5"; }
     QString mdiFormatHeader1() const { return "\uf26b"; }
     QString mdiFormatHeader2() const { return "\uf26c"; }
     QString mdiFormatHeader3() const { return "\uf26d"; }
@@ -2474,9 +2614,12 @@ public:
     QString mdiFormatListBulleted() const { return "\uf279"; }
     QString mdiFormatListBulletedType() const { return "\uf27a"; }
     QString mdiFormatListNumbers() const { return "\uf27b"; }
+    QString mdiFormatPageBreak() const { return "\uf6d6"; }
     QString mdiFormatPaint() const { return "\uf27c"; }
     QString mdiFormatParagraph() const { return "\uf27d"; }
+    QString mdiFormatPilcrow() const { return "\uf6d7"; }
     QString mdiFormatQuote() const { return "\uf27e"; }
+    QString mdiFormatRotate90() const { return "\uf6a9"; }
     QString mdiFormatSection() const { return "\uf69e"; }
     QString mdiFormatSize() const { return "\uf27f"; }
     QString mdiFormatStrikethrough() const { return "\uf280"; }
@@ -2507,6 +2650,8 @@ public:
     QString mdiFunction() const { return "\uf295"; }
     QString mdiGamepad() const { return "\uf296"; }
     QString mdiGamepadVariant() const { return "\uf297"; }
+    QString mdiGarage() const { return "\uf6d8"; }
+    QString mdiGarageOpen() const { return "\uf6d9"; }
     QString mdiGasCylinder() const { return "\uf647"; }
     QString mdiGasStation() const { return "\uf298"; }
     QString mdiGate() const { return "\uf299"; }
@@ -2521,6 +2666,7 @@ public:
     QString mdiGit() const { return "\uf2a2"; }
     QString mdiGithubBox() const { return "\uf2a3"; }
     QString mdiGithubCircle() const { return "\uf2a4"; }
+    QString mdiGithubFace() const { return "\uf6da"; }
     QString mdiGlassFlute() const { return "\uf2a5"; }
     QString mdiGlassMug() const { return "\uf2a6"; }
     QString mdiGlassStange() const { return "\uf2a7"; }
@@ -2542,9 +2688,11 @@ public:
     QString mdiGoogleDrive() const { return "\uf2b6"; }
     QString mdiGoogleEarth() const { return "\uf2b7"; }
     QString mdiGoogleGlass() const { return "\uf2b8"; }
+    QString mdiGoogleKeep() const { return "\uf6db"; }
     QString mdiGoogleMaps() const { return "\uf5f5"; }
     QString mdiGoogleNearby() const { return "\uf2b9"; }
     QString mdiGooglePages() const { return "\uf2ba"; }
+    QString mdiGooglePhotos() const { return "\uf6dc"; }
     QString mdiGooglePhysicalWeb() const { return "\uf2bb"; }
     QString mdiGooglePlay() const { return "\uf2bc"; }
     QString mdiGooglePlus() const { return "\uf2bd"; }
@@ -2575,12 +2723,16 @@ public:
     QString mdiHeartBox() const { return "\uf2d2"; }
     QString mdiHeartBoxOutline() const { return "\uf2d3"; }
     QString mdiHeartBroken() const { return "\uf2d4"; }
+    QString mdiHeartHalfOutline() const { return "\uf6dd"; }
+    QString mdiHeartHalfPart() const { return "\uf6de"; }
+    QString mdiHeartHalfPartOutline() const { return "\uf6df"; }
     QString mdiHeartOutline() const { return "\uf2d5"; }
     QString mdiHeartPulse() const { return "\uf5f6"; }
     QString mdiHelp() const { return "\uf2d6"; }
     QString mdiHelpCircle() const { return "\uf2d7"; }
     QString mdiHelpCircleOutline() const { return "\uf625"; }
     QString mdiHexagon() const { return "\uf2d8"; }
+    QString mdiHexagonMultiple() const { return "\uf6e0"; }
     QString mdiHexagonOutline() const { return "\uf2d9"; }
     QString mdiHighway() const { return "\uf5f7"; }
     QString mdiHistory() const { return "\uf2da"; }
@@ -2590,6 +2742,8 @@ public:
     QString mdiHomeModern() const { return "\uf2dd"; }
     QString mdiHomeOutline() const { return "\uf6a0"; }
     QString mdiHomeVariant() const { return "\uf2de"; }
+    QString mdiHook() const { return "\uf6e1"; }
+    QString mdiHookOff() const { return "\uf6e2"; }
     QString mdiHops() const { return "\uf2df"; }
     QString mdiHospital() const { return "\uf2e0"; }
     QString mdiHospitalBuilding() const { return "\uf2e1"; }
@@ -2628,6 +2782,7 @@ public:
     QString mdiInboxArrowDown() const { return "\uf2fb"; }
     QString mdiInboxArrowUp() const { return "\uf3d1"; }
     QString mdiIncognito() const { return "\uf5f9"; }
+    QString mdiInfinity() const { return "\uf6e3"; }
     QString mdiInformation() const { return "\uf2fc"; }
     QString mdiInformationOutline() const { return "\uf2fd"; }
     QString mdiInformationVariant() const { return "\uf64e"; }
@@ -2674,9 +2829,12 @@ public:
     QString mdiLanguagePhp() const { return "\uf31f"; }
     QString mdiLanguagePython() const { return "\uf320"; }
     QString mdiLanguagePythonText() const { return "\uf321"; }
+    QString mdiLanguageSwift() const { return "\uf6e4"; }
+    QString mdiLanguageTypescript() const { return "\uf6e5"; }
     QString mdiLaptop() const { return "\uf322"; }
     QString mdiLaptopChromebook() const { return "\uf323"; }
     QString mdiLaptopMac() const { return "\uf324"; }
+    QString mdiLaptopOff() const { return "\uf6e6"; }
     QString mdiLaptopWindows() const { return "\uf325"; }
     QString mdiLastfm() const { return "\uf326"; }
     QString mdiLaunch() const { return "\uf327"; }
@@ -2695,6 +2853,8 @@ public:
     QString mdiLibraryMusic() const { return "\uf333"; }
     QString mdiLibraryPlus() const { return "\uf334"; }
     QString mdiLightbulb() const { return "\uf335"; }
+    QString mdiLightbulbOn() const { return "\uf6e7"; }
+    QString mdiLightbulbOnOutline() const { return "\uf6e8"; }
     QString mdiLightbulbOutline() const { return "\uf336"; }
     QString mdiLink() const { return "\uf337"; }
     QString mdiLinkOff() const { return "\uf338"; }
@@ -2707,20 +2867,25 @@ public:
     QString mdiLockOpen() const { return "\uf33f"; }
     QString mdiLockOpenOutline() const { return "\uf340"; }
     QString mdiLockOutline() const { return "\uf341"; }
+    QString mdiLockPattern() const { return "\uf6e9"; }
     QString mdiLockPlus() const { return "\uf5fb"; }
     QString mdiLogin() const { return "\uf342"; }
     QString mdiLoginVariant() const { return "\uf5fc"; }
     QString mdiLogout() const { return "\uf343"; }
     QString mdiLogoutVariant() const { return "\uf5fd"; }
     QString mdiLooks() const { return "\uf344"; }
+    QString mdiLoop() const { return "\uf6ea"; }
     QString mdiLoupe() const { return "\uf345"; }
     QString mdiLumx() const { return "\uf346"; }
     QString mdiMagnet() const { return "\uf347"; }
     QString mdiMagnetOn() const { return "\uf348"; }
     QString mdiMagnify() const { return "\uf349"; }
     QString mdiMagnifyMinus() const { return "\uf34a"; }
+    QString mdiMagnifyMinusOutline() const { return "\uf6eb"; }
     QString mdiMagnifyPlus() const { return "\uf34b"; }
+    QString mdiMagnifyPlusOutline() const { return "\uf6ec"; }
     QString mdiMailRu() const { return "\uf34c"; }
+    QString mdiMailbox() const { return "\uf6ed"; }
     QString mdiMap() const { return "\uf34d"; }
     QString mdiMapMarker() const { return "\uf34e"; }
     QString mdiMapMarkerCircle() const { return "\uf34f"; }
@@ -2738,6 +2903,7 @@ public:
     QString mdiMathCompass() const { return "\uf358"; }
     QString mdiMatrix() const { return "\uf628"; }
     QString mdiMaxcdn() const { return "\uf359"; }
+    QString mdiMedicalBag() const { return "\uf6ee"; }
     QString mdiMedium() const { return "\uf35a"; }
     QString mdiMemory() const { return "\uf35b"; }
     QString mdiMenu() const { return "\uf35c"; }
@@ -2758,6 +2924,8 @@ public:
     QString mdiMessageProcessing() const { return "\uf366"; }
     QString mdiMessageReply() const { return "\uf367"; }
     QString mdiMessageReplyText() const { return "\uf368"; }
+    QString mdiMessageSettings() const { return "\uf6ef"; }
+    QString mdiMessageSettingsVariant() const { return "\uf6f0"; }
     QString mdiMessageText() const { return "\uf369"; }
     QString mdiMessageTextOutline() const { return "\uf36a"; }
     QString mdiMessageVideo() const { return "\uf36b"; }
@@ -2773,6 +2941,7 @@ public:
     QString mdiMinecraft() const { return "\uf373"; }
     QString mdiMinus() const { return "\uf374"; }
     QString mdiMinusBox() const { return "\uf375"; }
+    QString mdiMinusBoxOutline() const { return "\uf6f1"; }
     QString mdiMinusCircle() const { return "\uf376"; }
     QString mdiMinusCircleOutline() const { return "\uf377"; }
     QString mdiMinusNetwork() const { return "\uf378"; }
@@ -2809,6 +2978,10 @@ public:
     QString mdiNeedle() const { return "\uf391"; }
     QString mdiNestProtect() const { return "\uf392"; }
     QString mdiNestThermostat() const { return "\uf393"; }
+    QString mdiNetwork() const { return "\uf6f2"; }
+    QString mdiNetworkDownload() const { return "\uf6f3"; }
+    QString mdiNetworkQuestion() const { return "\uf6f4"; }
+    QString mdiNetworkUpload() const { return "\uf6f5"; }
     QString mdiNewBox() const { return "\uf394"; }
     QString mdiNewspaper() const { return "\uf395"; }
     QString mdiNfc() const { return "\uf396"; }
@@ -2823,6 +2996,7 @@ public:
     QString mdiNotePlusOutline() const { return "\uf39d"; }
     QString mdiNoteText() const { return "\uf39e"; }
     QString mdiNotificationClearAll() const { return "\uf39f"; }
+    QString mdiNpm() const { return "\uf6f6"; }
     QString mdiNuke() const { return "\uf6a3"; }
     QString mdiNumeric() const { return "\uf3a0"; }
     QString mdiNumeric0Box() const { return "\uf3a1"; }
@@ -2858,10 +3032,12 @@ public:
     QString mdiNumeric9PlusBox() const { return "\uf3bf"; }
     QString mdiNumeric9PlusBoxMultipleOutline() const { return "\uf3c0"; }
     QString mdiNumeric9PlusBoxOutline() const { return "\uf3c1"; }
+    QString mdiNut() const { return "\uf6f7"; }
     QString mdiNutrition() const { return "\uf3c2"; }
     QString mdiOar() const { return "\uf67b"; }
     QString mdiOctagon() const { return "\uf3c3"; }
     QString mdiOctagonOutline() const { return "\uf3c4"; }
+    QString mdiOctagram() const { return "\uf6f8"; }
     QString mdiOdnoklassniki() const { return "\uf3c5"; }
     QString mdiOffice() const { return "\uf3c6"; }
     QString mdiOil() const { return "\uf3c7"; }
@@ -2883,6 +3059,11 @@ public:
     QString mdiPackageVariantClosed() const { return "\uf3d7"; }
     QString mdiPageFirst() const { return "\uf600"; }
     QString mdiPageLast() const { return "\uf601"; }
+    QString mdiPageLayoutBody() const { return "\uf6f9"; }
+    QString mdiPageLayoutFooter() const { return "\uf6fa"; }
+    QString mdiPageLayoutHeader() const { return "\uf6fb"; }
+    QString mdiPageLayoutSidebarLeft() const { return "\uf6fc"; }
+    QString mdiPageLayoutSidebarRight() const { return "\uf6fd"; }
     QString mdiPalette() const { return "\uf3d8"; }
     QString mdiPaletteAdvanced() const { return "\uf3d9"; }
     QString mdiPanda() const { return "\uf3da"; }
@@ -2906,8 +3087,11 @@ public:
     QString mdiPencil() const { return "\uf3eb"; }
     QString mdiPencilBox() const { return "\uf3ec"; }
     QString mdiPencilBoxOutline() const { return "\uf3ed"; }
+    QString mdiPencilCircle() const { return "\uf6fe"; }
     QString mdiPencilLock() const { return "\uf3ee"; }
     QString mdiPencilOff() const { return "\uf3ef"; }
+    QString mdiPentagon() const { return "\uf6ff"; }
+    QString mdiPentagonOutline() const { return "\uf700"; }
     QString mdiPercent() const { return "\uf3f0"; }
     QString mdiPharmacy() const { return "\uf3f1"; }
     QString mdiPhone() const { return "\uf3f2"; }
@@ -2931,12 +3115,14 @@ public:
     QString mdiPiano() const { return "\uf67c"; }
     QString mdiPig() const { return "\uf401"; }
     QString mdiPill() const { return "\uf402"; }
+    QString mdiPillar() const { return "\uf701"; }
     QString mdiPin() const { return "\uf403"; }
     QString mdiPinOff() const { return "\uf404"; }
     QString mdiPineTree() const { return "\uf405"; }
     QString mdiPineTreeBox() const { return "\uf406"; }
     QString mdiPinterest() const { return "\uf407"; }
     QString mdiPinterestBox() const { return "\uf408"; }
+    QString mdiPistol() const { return "\uf702"; }
     QString mdiPizza() const { return "\uf409"; }
     QString mdiPlaneShield() const { return "\uf6ba"; }
     QString mdiPlay() const { return "\uf40a"; }
@@ -2954,11 +3140,13 @@ public:
     QString mdiPlex() const { return "\uf6b9"; }
     QString mdiPlus() const { return "\uf415"; }
     QString mdiPlusBox() const { return "\uf416"; }
+    QString mdiPlusBoxOutline() const { return "\uf703"; }
     QString mdiPlusCircle() const { return "\uf417"; }
     QString mdiPlusCircleMultipleOutline() const { return "\uf418"; }
     QString mdiPlusCircleOutline() const { return "\uf419"; }
     QString mdiPlusNetwork() const { return "\uf41a"; }
     QString mdiPlusOne() const { return "\uf41b"; }
+    QString mdiPlusOutline() const { return "\uf704"; }
     QString mdiPocket() const { return "\uf41c"; }
     QString mdiPokeball() const { return "\uf41d"; }
     QString mdiPolaroid() const { return "\uf41e"; }
@@ -2976,11 +3164,13 @@ public:
     QString mdiPowerPlugOff() const { return "\uf6a5"; }
     QString mdiPowerSettings() const { return "\uf426"; }
     QString mdiPowerSocket() const { return "\uf427"; }
+    QString mdiPrescription() const { return "\uf705"; }
     QString mdiPresentation() const { return "\uf428"; }
     QString mdiPresentationPlay() const { return "\uf429"; }
     QString mdiPrinter() const { return "\uf42a"; }
     QString mdiPrinter3d() const { return "\uf42b"; }
     QString mdiPrinterAlert() const { return "\uf42c"; }
+    QString mdiPrinterSettings() const { return "\uf706"; }
     QString mdiPriorityHigh() const { return "\uf603"; }
     QString mdiPriorityLow() const { return "\uf604"; }
     QString mdiProfessionalHexagon() const { return "\uf42d"; }
@@ -3011,6 +3201,7 @@ public:
     QString mdiRayStartEnd() const { return "\uf444"; }
     QString mdiRayVertex() const { return "\uf445"; }
     QString mdiRdio() const { return "\uf446"; }
+    QString mdiReact() const { return "\uf707"; }
     QString mdiRead() const { return "\uf447"; }
     QString mdiReadability() const { return "\uf448"; }
     QString mdiReceipt() const { return "\uf449"; }
@@ -3037,15 +3228,19 @@ public:
     QString mdiReproduction() const { return "\uf45c"; }
     QString mdiResizeBottomRight() const { return "\uf45d"; }
     QString mdiResponsive() const { return "\uf45e"; }
+    QString mdiRestart() const { return "\uf708"; }
     QString mdiRestore() const { return "\uf6a7"; }
     QString mdiRewind() const { return "\uf45f"; }
+    QString mdiRewindOutline() const { return "\uf709"; }
+    QString mdiRhombus() const { return "\uf70a"; }
+    QString mdiRhombusOutline() const { return "\uf70b"; }
     QString mdiRibbon() const { return "\uf460"; }
     QString mdiRoad() const { return "\uf461"; }
     QString mdiRoadVariant() const { return "\uf462"; }
     QString mdiRobot() const { return "\uf6a8"; }
     QString mdiRocket() const { return "\uf463"; }
+    QString mdiRoomba() const { return "\uf70c"; }
     QString mdiRotate3d() const { return "\uf464"; }
-    QString mdiRotate90() const { return "\uf6a9"; }
     QString mdiRotateLeft() const { return "\uf465"; }
     QString mdiRotateLeftVariant() const { return "\uf466"; }
     QString mdiRotateRight() const { return "\uf467"; }
@@ -3057,7 +3252,8 @@ public:
     QString mdiRss() const { return "\uf46b"; }
     QString mdiRssBox() const { return "\uf46c"; }
     QString mdiRuler() const { return "\uf46d"; }
-    QString mdiRun() const { return "\uf46e"; }
+    QString mdiRun() const { return "\uf70d"; }
+    QString mdiRunFast() const { return "\uf46e"; }
     QString mdiSale() const { return "\uf46f"; }
     QString mdiSatellite() const { return "\uf470"; }
     QString mdiSatelliteVariant() const { return "\uf471"; }
@@ -3073,6 +3269,7 @@ public:
     QString mdiScript() const { return "\uf478"; }
     QString mdiSd() const { return "\uf479"; }
     QString mdiSeal() const { return "\uf47a"; }
+    QString mdiSearchWeb() const { return "\uf70e"; }
     QString mdiSeatFlat() const { return "\uf47b"; }
     QString mdiSeatFlatAngled() const { return "\uf47c"; }
     QString mdiSeatIndividualSuite() const { return "\uf47d"; }
@@ -3112,6 +3309,8 @@ public:
     QString mdiShieldOutline() const { return "\uf499"; }
     QString mdiShopping() const { return "\uf49a"; }
     QString mdiShoppingMusic() const { return "\uf49b"; }
+    QString mdiShovel() const { return "\uf70f"; }
+    QString mdiShovelOff() const { return "\uf710"; }
     QString mdiShredder() const { return "\uf49c"; }
     QString mdiShuffle() const { return "\uf49d"; }
     QString mdiShuffleDisabled() const { return "\uf49e"; }
@@ -3120,6 +3319,11 @@ public:
     QString mdiSigmaLower() const { return "\uf62b"; }
     QString mdiSignCaution() const { return "\uf4a1"; }
     QString mdiSignal() const { return "\uf4a2"; }
+    QString mdiSignal2g() const { return "\uf711"; }
+    QString mdiSignal3g() const { return "\uf712"; }
+    QString mdiSignal4g() const { return "\uf713"; }
+    QString mdiSignalHspa() const { return "\uf714"; }
+    QString mdiSignalHspaPlus() const { return "\uf715"; }
     QString mdiSignalVariant() const { return "\uf60a"; }
     QString mdiSilverware() const { return "\uf4a3"; }
     QString mdiSilverwareFork() const { return "\uf4a4"; }
@@ -3146,6 +3350,7 @@ public:
     QString mdiSmoking() const { return "\uf4b4"; }
     QString mdiSmokingOff() const { return "\uf4b5"; }
     QString mdiSnapchat() const { return "\uf4b6"; }
+    QString mdiSnowflake() const { return "\uf716"; }
     QString mdiSnowman() const { return "\uf4b7"; }
     QString mdiSoccer() const { return "\uf4b8"; }
     QString mdiSofa() const { return "\uf4b9"; }
@@ -3158,11 +3363,19 @@ public:
     QString mdiSortVariant() const { return "\uf4bf"; }
     QString mdiSoundcloud() const { return "\uf4c0"; }
     QString mdiSourceBranch() const { return "\uf62c"; }
+    QString mdiSourceCommit() const { return "\uf717"; }
+    QString mdiSourceCommitEnd() const { return "\uf718"; }
+    QString mdiSourceCommitEndLocal() const { return "\uf719"; }
+    QString mdiSourceCommitLocal() const { return "\uf71a"; }
+    QString mdiSourceCommitNextLocal() const { return "\uf71b"; }
+    QString mdiSourceCommitStart() const { return "\uf71c"; }
+    QString mdiSourceCommitStartNextLocal() const { return "\uf71d"; }
     QString mdiSourceFork() const { return "\uf4c1"; }
     QString mdiSourceMerge() const { return "\uf62d"; }
     QString mdiSourcePull() const { return "\uf4c2"; }
     QString mdiSpeaker() const { return "\uf4c3"; }
     QString mdiSpeakerOff() const { return "\uf4c4"; }
+    QString mdiSpeakerWireless() const { return "\uf71e"; }
     QString mdiSpeedometer() const { return "\uf4c5"; }
     QString mdiSpellcheck() const { return "\uf4c6"; }
     QString mdiSpotify() const { return "\uf4c7"; }
@@ -3173,6 +3386,7 @@ public:
     QString mdiSquareIncCash() const { return "\uf4cb"; }
     QString mdiStackexchange() const { return "\uf60b"; }
     QString mdiStackoverflow() const { return "\uf4cc"; }
+    QString mdiStadium() const { return "\uf71f"; }
     QString mdiStairs() const { return "\uf4cd"; }
     QString mdiStar() const { return "\uf4ce"; }
     QString mdiStarCircle() const { return "\uf4cf"; }
@@ -3200,6 +3414,7 @@ public:
     QString mdiSubwayVariant() const { return "\uf4df"; }
     QString mdiSunglasses() const { return "\uf4e0"; }
     QString mdiSurroundSound() const { return "\uf5c5"; }
+    QString mdiSvg() const { return "\uf720"; }
     QString mdiSwapHorizontal() const { return "\uf4e1"; }
     QString mdiSwapVertical() const { return "\uf4e2"; }
     QString mdiSwim() const { return "\uf4e3"; }
@@ -3229,6 +3444,8 @@ public:
     QString mdiTagHeart() const { return "\uf68a"; }
     QString mdiTagMultiple() const { return "\uf4fb"; }
     QString mdiTagOutline() const { return "\uf4fc"; }
+    QString mdiTagPlus() const { return "\uf721"; }
+    QString mdiTagRemove() const { return "\uf722"; }
     QString mdiTagTextOutline() const { return "\uf4fd"; }
     QString mdiTarget() const { return "\uf4fe"; }
     QString mdiTaxi() const { return "\uf4ff"; }
@@ -3260,7 +3477,9 @@ public:
     QString mdiTicket() const { return "\uf516"; }
     QString mdiTicketAccount() const { return "\uf517"; }
     QString mdiTicketConfirmation() const { return "\uf518"; }
+    QString mdiTicketPercent() const { return "\uf723"; }
     QString mdiTie() const { return "\uf519"; }
+    QString mdiTilde() const { return "\uf724"; }
     QString mdiTimelapse() const { return "\uf51a"; }
     QString mdiTimer() const { return "\uf51b"; }
     QString mdiTimer10() const { return "\uf51c"; }
@@ -3289,6 +3508,7 @@ public:
     QString mdiTransfer() const { return "\uf530"; }
     QString mdiTransitTransfer() const { return "\uf6ad"; }
     QString mdiTranslate() const { return "\uf5ca"; }
+    QString mdiTreasureChest() const { return "\uf725"; }
     QString mdiTree() const { return "\uf531"; }
     QString mdiTrello() const { return "\uf532"; }
     QString mdiTrendingDown() const { return "\uf533"; }
@@ -3303,6 +3523,7 @@ public:
     QString mdiTrophyVariantOutline() const { return "\uf53c"; }
     QString mdiTruck() const { return "\uf53d"; }
     QString mdiTruckDelivery() const { return "\uf53e"; }
+    QString mdiTruckTrailer() const { return "\uf726"; }
     QString mdiTshirtCrew() const { return "\uf53f"; }
     QString mdiTshirtV() const { return "\uf540"; }
     QString mdiTumblr() const { return "\uf541"; }
@@ -3362,7 +3583,9 @@ public:
     QString mdiViewHeadline() const { return "\uf571"; }
     QString mdiViewList() const { return "\uf572"; }
     QString mdiViewModule() const { return "\uf573"; }
+    QString mdiViewParallel() const { return "\uf727"; }
     QString mdiViewQuilt() const { return "\uf574"; }
+    QString mdiViewSequential() const { return "\uf728"; }
     QString mdiViewStream() const { return "\uf575"; }
     QString mdiViewWeek() const { return "\uf576"; }
     QString mdiVimeo() const { return "\uf577"; }
@@ -3386,6 +3609,7 @@ public:
     QString mdiWalletMembership() const { return "\uf586"; }
     QString mdiWalletTravel() const { return "\uf587"; }
     QString mdiWan() const { return "\uf588"; }
+    QString mdiWashingMachine() const { return "\uf729"; }
     QString mdiWatch() const { return "\uf589"; }
     QString mdiWatchExport() const { return "\uf58a"; }
     QString mdiWatchImport() const { return "\uf58b"; }
@@ -3415,6 +3639,7 @@ public:
     QString mdiWeb() const { return "\uf59f"; }
     QString mdiWebcam() const { return "\uf5a0"; }
     QString mdiWebhook() const { return "\uf62f"; }
+    QString mdiWebpack() const { return "\uf72a"; }
     QString mdiWechat() const { return "\uf611"; }
     QString mdiWeight() const { return "\uf5a1"; }
     QString mdiWeightKilogram() const { return "\uf5a2"; }
@@ -3424,9 +3649,11 @@ public:
     QString mdiWhiteBalanceIncandescent() const { return "\uf5a6"; }
     QString mdiWhiteBalanceIridescent() const { return "\uf5a7"; }
     QString mdiWhiteBalanceSunny() const { return "\uf5a8"; }
+    QString mdiWidgets() const { return "\uf72b"; }
     QString mdiWifi() const { return "\uf5a9"; }
     QString mdiWifiOff() const { return "\uf5aa"; }
     QString mdiWii() const { return "\uf5ab"; }
+    QString mdiWiiu() const { return "\uf72c"; }
     QString mdiWikipedia() const { return "\uf5ac"; }
     QString mdiWindowClose() const { return "\uf5ad"; }
     QString mdiWindowClosed() const { return "\uf5ae"; }
@@ -3454,7 +3681,6 @@ public:
     QString mdiYinYang() const { return "\uf67f"; }
     QString mdiYoutubePlay() const { return "\uf5c3"; }
     QString mdiZipBox() const { return "\uf5c4"; }
-    QString mdiBlank() const { return "\uf68c"; }
 }
 
 #endif // MATERIAL_ICONS_H
